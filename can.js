@@ -68,6 +68,8 @@ function Signal(desc)
 	this.minValue = desc['minValue'];
 	this.maxValue = desc['maxValue'];
 
+	this.factor = desc['scale'];
+
         /**
          * Current value
          * @attribute value
